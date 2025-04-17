@@ -4,7 +4,7 @@ namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Datastores;
 
 use Novatorius\PHPNomad\DatabaseSchemas\Config\Adapters\ConfigAdapter;
 use Novatorius\PHPNomad\DatabaseSchemas\Config\Datastores\Tables\ConfigsTable;
-use Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces\ConfigDatastoreHandler;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Datastores\Interfaces\ConfigDatastoreHandler;
 use Novatorius\PHPNomad\DatabaseSchemas\Config\Models\Config;
 use PHPNomad\Database\Providers\DatabaseServiceProvider;
 use PHPNomad\Database\Services\TableSchemaService;

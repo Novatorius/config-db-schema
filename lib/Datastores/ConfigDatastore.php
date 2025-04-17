@@ -9,8 +9,8 @@ use PHPNomad\Datastore\Traits\WithDatastoreCountDecorator;
 use PHPNomad\Datastore\Traits\WithDatastoreDecorator;
 use PHPNomad\Datastore\Traits\WithDatastoreWhereDecorator;
 use PHPNomad\Utils\Helpers\Arr;
-use Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces\ConfigDatastore as ConfigDatastoreInterface;
-use Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces\ConfigDatastoreHandler;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Datastores\Interfaces\ConfigDatastore as ConfigDatastoreInterface;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Datastores\Interfaces\ConfigDatastoreHandler;
 use Novatorius\PHPNomad\DatabaseSchemas\Config\Models\Config;
 
 class ConfigDatastore implements ConfigDatastoreInterface
