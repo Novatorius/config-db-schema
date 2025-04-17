@@ -1,0 +1,36 @@
+{
+    "name": "novatorius/config-db-core",
+    "description": "Abstractions to help creating config tables.",
+    "type": "package",
+    "homepage": "https://github.com/phpnomad/core",
+    "readme": "README.md",
+    "license": "GPL-3.0-or-later",
+    "scripts": {
+        "php-cs-fixer": "php-cs-fixer fix"
+    },
+    "authors": [
+        {
+            "name": "Alex Standiford",
+            "email": "alex@standiford.us"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Novatorius\\PHPNomad\\DatabaseScemas\\Config\\": "lib/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "composer/installers": true
+        }
+    },
+    "require": {
+        "phpnomad/datastore": "^2.0",
+        "phpnomad/utils": "^1.0",
+        "phpnomad/db": "^2.0",
+        "phpnomad/facade": "^1.0",
+        "phpnomad/di": "^1.0",
+        "phpnomad/loader": "^1.0"
+    }
+}
