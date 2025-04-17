@@ -1,5 +1,5 @@
 {
-    "name": "novatorius/config-db-core",
+    "name": "novatorius/config-db-schema",
     "description": "Abstractions to help creating config tables.",
     "type": "package",
     "homepage": "https://github.com/phpnomad/core",
