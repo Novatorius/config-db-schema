@@ -1,6 +1,6 @@
 <?php
 
-namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces;
+namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Datastores\Interfaces;
 
 use PHPNomad\Datastore\Exceptions\DatastoreErrorException;
 use PHPNomad\Datastore\Interfaces\Datastore;
