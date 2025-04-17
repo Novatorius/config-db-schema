@@ -1,5 +1,5 @@
 <?php
-namespace Novatorius\PHPNomad\DatabaseScemas\Config\Datastores\Tables;
+namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Datastores\Tables;
 
 use PHPNomad\Database\Abstracts\Table;
 use PHPNomad\Database\Factories\Column;

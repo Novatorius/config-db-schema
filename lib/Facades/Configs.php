@@ -1,15 +1,15 @@
 <?php
 
-namespace Novatorius\PHPNomad\DatabaseScemas\Config\Facades;
+namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Facades;
 
 use PHPNomad\Database\Traits\WithModelAdapterFacadeMethods;
 use PHPNomad\Datastore\Exceptions\DatastoreErrorException;
 use PHPNomad\Datastore\Traits\WithDatastoreFacadeMethods;
 use PHPNomad\Facade\Abstracts\Facade;
 use PHPNomad\Singleton\Traits\WithInstance;
-use Novatorius\PHPNomad\DatabaseScemas\Config\Interfaces\ConfigDatastore;
-use Novatorius\PHPNomad\DatabaseScemas\Config\Adapters\ConfigAdapter;
-use Novatorius\PHPNomad\DatabaseScemas\Config\Models\Config;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces\ConfigDatastore;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Adapters\ConfigAdapter;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Models\Config;
 
 class Configs extends Facade
 {

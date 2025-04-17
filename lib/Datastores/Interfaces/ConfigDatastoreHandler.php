@@ -1,6 +1,6 @@
 <?php
 
-namespace Novatorius\PHPNomad\DatabaseScemas\Config\Interfaces;
+namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces;
 
 use PHPNomad\Datastore\Interfaces\Datastore;
 use PHPNomad\Datastore\Interfaces\DatastoreHasCounts;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Novatorius\PHPNomad\DatabaseScemas\Config\Interfaces;
+namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces;
 
 use PHPNomad\Datastore\Exceptions\DatastoreErrorException;
 use PHPNomad\Datastore\Interfaces\Datastore;
 use PHPNomad\Datastore\Interfaces\DatastoreHasCounts;
 use PHPNomad\Datastore\Interfaces\DatastoreHasWhere;
-use Novatorius\PHPNomad\DatabaseScemas\Config\Models\Config;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Models\Config;
 
 interface ConfigDatastore extends Datastore, DatastoreHasWhere, DatastoreHasCounts
 {

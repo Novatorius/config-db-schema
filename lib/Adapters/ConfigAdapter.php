@@ -1,8 +1,8 @@
 <?php
 
-namespace Novatorius\PHPNomad\DatabaseScemas\Config\Adapters;
+namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Adapters;
 
-use Novatorius\PHPNomad\DatabaseScemas\Config\Models\Config;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Models\Config;
 use PHPNomad\Datastore\Interfaces\DataModel;
 use PHPNomad\Datastore\Interfaces\ModelAdapter;
 use PHPNomad\Utils\Helpers\Arr;

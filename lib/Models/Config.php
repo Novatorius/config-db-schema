@@ -1,6 +1,6 @@
 <?php
 
-namespace Novatorius\PHPNomad\DatabaseScemas\Config\Models;
+namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Models;
 
 use PHPNomad\Datastore\Interfaces\DataModel;
 

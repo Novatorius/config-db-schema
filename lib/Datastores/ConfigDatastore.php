@@ -1,6 +1,6 @@
 <?php
 
-namespace Novatorius\PHPNomad\DatabaseScemas\Config\Datastores;
+namespace Novatorius\PHPNomad\DatabaseSchemas\Config\Datastores;
 
 use PHPNomad\Datastore\Exceptions\RecordNotFoundException;
 use PHPNomad\Datastore\Exceptions\DatastoreErrorException;
@@ -9,9 +9,9 @@ use PHPNomad\Datastore\Traits\WithDatastoreCountDecorator;
 use PHPNomad\Datastore\Traits\WithDatastoreDecorator;
 use PHPNomad\Datastore\Traits\WithDatastoreWhereDecorator;
 use PHPNomad\Utils\Helpers\Arr;
-use Novatorius\PHPNomad\DatabaseScemas\Config\Interfaces\ConfigDatastore as ConfigDatastoreInterface;
-use Novatorius\PHPNomad\DatabaseScemas\Config\Interfaces\ConfigDatastoreHandler;
-use Novatorius\PHPNomad\DatabaseScemas\Config\Models\Config;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces\ConfigDatastore as ConfigDatastoreInterface;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Interfaces\ConfigDatastoreHandler;
+use Novatorius\PHPNomad\DatabaseSchemas\Config\Models\Config;
 
 class ConfigDatastore implements ConfigDatastoreInterface
 {
