@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Novatorius\\PHPNomad\\DatabaseScemas\\Config\\": "lib/"
+            "Novatorius\\PHPNomad\\DatabaseSchemas\\Config\\": "lib/"
         }
     },
     "config": {
